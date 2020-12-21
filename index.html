@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
-<body>
-    
 
+<body>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <nav class="navbar position-absolute mx-auto" style="z-index: 1;">
+                <div class="ml-17 pt-4" class="nav1">
+                    <ul class="d-flex list-unstyled pl-2 text-uppercase border-right-0 border-left-0 border border-light">
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white" href="">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white href=">Menu List</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a class="nav-link btn text-white" href="">Team</a>
+                        </li>
+                    </ul>
+                </div>
+                <div><img src="./public/img/logo.png" alt=""></div>
+                <div class="mr-17 pt-4" class="nav1">
+                    <ul class="d-flex list-unstyled pl-2 text-uppercase border-right-0 border-left-0 border border-light">
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white" href="">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white" href="">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white" href="">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn text-white" href="">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" text-center mx-auto pt-15 text-white">
+                    <h1>wathever your <span class="oc">occasion,</span></h1> 
+                    <h1><span class=" tast text-danger">Taste</span> <span class="makes">makes</span>  it one</h1>
+                    <h1 class="mb-4">to <span class="remem">remember!</span> </h1>
+                    <button type="button" class=" bg-white btn btn-white-dark rounded-pill mr-3">PURCHASE THEME</button>
+                    <button type="button" class="btn btn-danger btn-lg rounded-pill">LEARN MORE</button>
+
+                </div>
+
+            </nav>
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><i class="far fa-circle"></i></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""><i class="far fa-circle"></i></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""><i class="far fa-circle"></i></li>
+            </ol>
+            <div class="position-absolute mb-5px ">
+                <img style="background-repeat: repeat-y; z-index: 1;" src="./public/img/bottom_decoration_img.png" alt="">
+            </div> 
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./public/img/banner1.jpg" class="d-block img w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./public/img/banner1.jpg" class="d-block img w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./public/img/banner1.jpg" class="d-block img w-100" alt="...">
+                </div>
+            </div>
+        </div>
+           
+    </header>
+        
 
 
     <!-- script jquery -->
@@ -17,4 +86,5 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
