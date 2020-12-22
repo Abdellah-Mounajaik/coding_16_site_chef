@@ -19448,8 +19448,7 @@ h1 .remem {
 }
 
 .s1 .m1 {
-  border-radius: 50%;
-  border-radius: 5px solid gray;
+  border: 5px solid lightgray;
 }
 
 .s1 .cl {
@@ -19468,4 +19467,34 @@ h1 .remem {
 
 .s2 .br {
   border-bottom: 2px solid white;
+}
+
+.s3 {
+  background-image: url("../img/main_bg.jpg");
+}
+
+.s3 .bt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s3 .bg-img {
+  background-image: url("../img/book_table_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s3 input {
+  border-radius: 5px;
+}
+
+.s3 .blg {
+  border-radius: 20px;
+  border: solid 7px;
+  border-color: gray;
+}
+
+.s3 .btnn {
+  bottom: 0%;
+  right: 25%;
 }
