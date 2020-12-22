@@ -19415,3 +19415,49 @@ h1 .makes {
 h1 .remem {
   font-size: 50px;
 }
+
+.dent {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+}
+
+.s1 {
+  background-image: url("../img/main_bg.jpg");
+}
+
+.s1 .ct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s1 .ic {
+  border-bottom: solid gray 2px;
+  border-right: solid gray 2px;
+}
+
+.s1 .ic i {
+  font-size: 50px;
+  text-decoration: non;
+  color: lightgray;
+}
+
+.s1 .tt {
+  padding: 20px;
+  border-bottom: solid gray 1px;
+}
+
+.s1 .m1 {
+  border-radius: 50%;
+  border-radius: 5px solid gray;
+}
+
+.s1 .cl {
+  padding-bottom: 27px;
+  border-bottom: 2px solid gray;
+}
+
+.s1 .bc {
+  display: flex;
+  justify-content: space-between;
+}
