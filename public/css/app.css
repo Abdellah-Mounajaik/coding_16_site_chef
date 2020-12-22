@@ -19511,3 +19511,17 @@ h1 .remem {
   border-radius: 10px;
   border: 5px solid gray;
 }
+
+.s5 {
+  background-image: url("../img/main_bg.jpg");
+}
+
+.s5 .cont {
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 10px;
+}
+
+.s5 .icn {
+  font-size: 35px;
+}
