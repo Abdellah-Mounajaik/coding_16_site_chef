@@ -19498,3 +19498,16 @@ h1 .remem {
   bottom: 0%;
   right: 25%;
 }
+
+.s4 {
+  background-image: url("../img/testimonials_background.jpg");
+}
+
+.s4 .par {
+  border: 2px solid  white;
+}
+
+.s4 .imgf {
+  border-radius: 10px;
+  border: 5px solid gray;
+}
