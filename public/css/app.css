@@ -19461,3 +19461,11 @@ h1 .remem {
   display: flex;
   justify-content: space-between;
 }
+
+.s2 {
+  background-image: url("../img/team_background.jpg");
+}
+
+.s2 .br {
+  border-bottom: 2px solid white;
+}
