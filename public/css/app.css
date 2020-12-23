@@ -19525,3 +19525,19 @@ h1 .remem {
 .s5 .icn {
   font-size: 35px;
 }
+
+.foot {
+  background-image: url("../img/footer_background.jpg");
+}
+
+.foot .dent1 {
+  position: absolute;
+  top: 0%;
+  display: flex;
+}
+
+.foot .icf {
+  font-size: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
