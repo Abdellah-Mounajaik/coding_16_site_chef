@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ubuntu";
-  src: url(../public/fonts/ubuntu/Ubuntu-Regular.ttf);
+  src: url("../public/fonts/ubuntu/Ubuntu-Regular.ttf");
 }
 
 @font-face {
@@ -19397,6 +19397,7 @@ nav a:hover {
 
 h1 {
   font-family: "courgette";
+  font-style: italic;
 }
 
 h1 .oc {
@@ -19439,7 +19440,11 @@ h1 .remem {
 .s1 .ic i {
   font-size: 50px;
   text-decoration: non;
-  color: lightgray;
+  color: gray;
+}
+
+.s1 .ic #ac {
+  color: #c94040fd;
 }
 
 .s1 .tt {
@@ -19466,7 +19471,7 @@ h1 .remem {
 }
 
 .s2 .br {
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid gray;
 }
 
 .s3 {
@@ -19476,6 +19481,11 @@ h1 .remem {
 .s3 .bt {
   display: flex;
   justify-content: space-between;
+}
+
+.s3 .gr {
+  padding-left: 23%;
+  padding-right: 23%;
 }
 
 .s3 .bg-img {
@@ -19510,6 +19520,8 @@ h1 .remem {
 .s4 .imgf {
   border-radius: 10px;
   border: 5px solid gray;
+  height: 150px;
+  width: 150px;
 }
 
 .s5 {
