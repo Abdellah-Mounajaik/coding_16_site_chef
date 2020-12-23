@@ -19423,6 +19423,10 @@ h1 .remem {
   display: flex;
 }
 
+.ro {
+  border-radius: 50%;
+}
+
 .s1 {
   background-image: url("../img/main_bg.jpg");
 }
