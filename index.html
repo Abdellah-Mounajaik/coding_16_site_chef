@@ -12,10 +12,10 @@
     <!-- debut du header -->
     <header class="position-relative overflow-hidden">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <nav class="navbar position-absolute mx-auto" style="z-index: 1;">
+            <nav class="container-fluid text-center navbar position-absolute">
                 <div class="mx-auto pt-4" class="nav1">
                     <ul
-                        class="d-flex list-unstyled pl-2 text-uppercase border-right-0 border-left-0 border border-light">
+                        class="d-none d-lg-flex list-unstyled pl-2 text-uppercase border-right-0 border-left-0 border border-light ">
                         <li class="nav-item">
                             <a class="nav-link btn text-white" href="">Home</a>
                         </li>
@@ -30,10 +30,10 @@
                         </li>
                     </ul>
                 </div>
-                <div><img src="./public/img/logo.png" alt=""></div>
+                <div><img class="imgh" src="./public/img/logo.png" alt=""></div>
                 <div class="mx-auto pt-4 " class="nav1">
                     <ul
-                        class="d-flex list-unstyled pl-2 text-uppercase border-right-0 border-left-0 border border-light">
+                        class="d-none d-lg-flex list-unstyled pl-2 text-uppercase border-right-0 border-left-0 border border-light">
                         <li class="nav-item">
                             <a class="nav-link btn text-white" href="">Reservation</a>
                         </li>
@@ -48,18 +48,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class=" text-center mx-auto pt-15 text-white">
-                    <h1>wathever your <span class="oc">occasion,</span></h1>
-                    <h1><span style="font-size: 55px;" class=" tast text-danger">Taste</span> <span
-                            class="makes">makes</span> it one</h1>
-                    <h1 class="mb-4">to <span class="remem">remember!</span> </h1>
-                    <button type="button" class=" bg-white btn btn-white-dark rounded-pill mr-3">PURCHASE THEME</button>
-                    <button type="button" class="btn btn-danger btn-lg rounded-pill">LEARN MORE</button>
+                
+            </nav>
+            <div class="texth container-fluid text-center text-white position-absolute">
+                    <h1 class="h1t">wathever your <span class="oc">occasion,</span></h1>
+                    <h1 class="h1t"><span class="taste text-danger">Taste</span> <span
+                    class="makes">makes</span> it one</h1>
+                    <h1 class="h1t">to <span class="remem">remember!</span> </h1>
+                    <button type="button" class="btnh bg-white btn btn-white-dark rounded-pill mr-3">PURCHASE THEME</button>
+                    <button type="button" class="btnh btn btn-danger btn-lg rounded-pill">LEARN MORE</button>
 
                 </div>
-
-            </nav>
-            <ol class="carousel-indicators">
+            <ol class="rond carousel-indicators">
                 <li style="height: 10px; width: 10px;" class="ro" data-target="#carouselExampleIndicators"
                     data-slide-to="0" class="active"><i class="far fa-circle"></i></li>
                 <li style="width: 10px; height: 10px;" class="ro" data-target="#carouselExampleIndicators"
@@ -69,10 +69,7 @@
                     data-slide-to="2" class=""><i class="far fa-circle"></i>
                 </li>
             </ol>
-            <div class="position-absolute mb-5px ">
-                <img style="background-repeat: repeat-y; z-index: 1;" src="./public/img/bottom_decoration_img.png"
-                    alt="">
-            </div>
+            
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./public/img/banner1.jpg" class="d-block img w-100" alt="...">
@@ -121,18 +118,26 @@
     </header>
     <!-- fin du heaeder -->
     <!-- debut de la section 1 -->
-    <section class="s1 pb-3">
-        <div class="ml-7 mr-7 mt-3 mb-3 bg-white">
-            <div class="ct">
-                <img src="./public/img/box-left-top.png" alt="">
-                <div class="text-center mt-7">
+    <section class="s1 pb-3 pt-3">
+        <div class="se1 ml-7 mr-7 mb-3 bg-white position-relative">
+            <div class="pt-10">
+                <img class="position-absolute" style="top:0%; right:0%" src="./public/img/box-right-top.png" alt="">
+                <img class="position-absolute" style="top:0%; left:0%" src="./public/img/box-left-top.png" alt="">  
+                <img class="position-absolute" style="bottom:0%; right:0%" src="./public/img/box-bottom_right.png" alt="">
+                <img class="position-absolute" style="bottom:0%; left:0%" src="./public/img/box-bottom-left.png" alt="">  
+            </div>
+            
+                
+            <div class="ct text-center justify-content-center">
+                <div class="text-center">
                     <h1><span style="font-size: 55px; font-family: courgette;" class="text-danger">Our</span> Stories
                     </h1>
-                    <img src="./public/img/decoration_line.png" alt="">
+                    <img class="tr" src="./public/img/decoration_line.png" alt="">
                 </div>
-                <img src="./public/img/box-right-top.png" alt="">
+                
             </div>
-            <div class="text-center mt-7 ml-17 mr-17">
+            <div class=" text-center mt-7 pl-lg-17 pr-lg-17">
+                
                 <p style="font-family: ubuntu;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo non
                     fuga necessitatibus quidem,
                     minus mollitia ipsa ea soluta consequatur magnam exercitationem magni. Iste rerum vero consequatur
@@ -144,37 +149,37 @@
                     numquam assumenda mollitia dolores magni enim nemo, facilis aut fugiat eveniet sequi laborum atque
                     quasi ipsum!</p>
             </div>
-            <div class="text-center mt-7 mb-7">
+            <div class="text-center mt-7 mb-7 justify-content-center">
                 <h1><span style="font-size: 55px; font-family: courgette;" class="text-danger">Our</span> Menu List</h1>
-                <img src="./public/img/decoration_line.png" alt="">
+                <img class="tr" src="./public/img/decoration_line.png" alt="">
             </div>
-            <div class="container">
+            <div class="container pb-7">
                 <div class="row">
                     <div class="col-12 col-lg-2 p-0 text-center align-items-center">
                         <div class="ic p-3">
                             <a style="text-decoration: none;" class="text-dark" href="">
-                                <i class=" fas fa-coffee mb-3" id="ac"></i>
+                                <i class="icc fas fa-coffee mb-3" id="ac"></i>
                                 <p style="font-family: courgette; font-size: 25px; font-style: italic; font-weight: bold;"
                                     class="text-dark">Breakfast</p>
                             </a>
                         </div>
                         <div class="ic p-3">
                             <a style="text-decoration: none;" class="text-dark" href="">
-                                <i class="fas fa-hamburger mb-3"></i>
+                                <i class="icc fas fa-hamburger mb-3"></i>
                                 <p style="font-family: courgette; font-size: 25px; font-style: italic; font-weight: bold;"
                                     class="text-dark">Lunch</p>
                             </a>
                         </div>
                         <div class="ic p-3">
                             <a style="text-decoration: none;" class="text-dark" href="">
-                                <i class="fas fa-utensils mb-3"></i>
+                                <i class="icc fas fa-utensils mb-3"></i>
                                 <p style="font-family: courgette; font-size: 25px; font-style: italic; font-weight: bold;"
                                     class="text-dark">Snacks</p>
                             </a>
                         </div>
                         <div class="ic p-3">
                             <a style="text-decoration: none;" class="text-dark" href="">
-                                <i class="fas fa-coffee mb-3"></i>
+                                <i class="icc fas fa-coffee mb-3"></i>
                                 <p style="font-family: courgette; font-size: 25px; font-style: italic; font-weight: bold;"
                                     class="text-dark">Dinner</p>
                             </a>
@@ -192,7 +197,7 @@
                                 <p style="font-size: 14px;" class="border-bottom-0">Lorem ipsum dolor sit amet. Lorem
                                 </p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -205,7 +210,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -218,7 +223,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -231,7 +236,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -244,7 +249,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -259,7 +264,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -272,7 +277,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -285,7 +290,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -298,7 +303,7 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
@@ -311,21 +316,19 @@
                                 <p style="font-size: 14px;" class="m-0">Lorem ipsum dolor sit amet. Lorem</p>
                                 <p style="font-size: 14px;">Lorem ipsum dolor sit amet. Lorem</p>
                             </div>
-                            <div class="ml-5 bg-light p-2">
+                            <div class="m-0 ml-md-5 bg-light p-2">
                                 <p class="text-danger m-0">$25</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="bc mt-5">
-                <img src="./public/img/box-bottom-left.png" alt="">
+               <div class=" mb-7 mt-7">     
                 <div class="text-center">
-                    <img src="./public/img/decoration_line.png" alt="">
+                    <img class="tr" src="./public/img/decoration_line.png" alt="">
                 </div>
-                <img src="./public/img/box-bottom_right.png" alt="">
+            </div> 
             </div>
-
+            
         </div>
     </section>
     <!-- fin de la section 1 -->
@@ -334,7 +337,7 @@
         <div class="text-center pt-5 pb-5 text-white">
             <h1 style="font-family: courgette; font-style: italic;"><span style="font-size: 65px;"
                     class="text-danger">Meet</span> our chef</h1>
-            <img src="./public/img/decoration_line.png" alt="">
+            <img class="tr" src="./public/img/decoration_line.png" alt="">
         </div>
         <div class="container">
             <div class="row">
@@ -359,75 +362,59 @@
     </section>
     <!-- fin de la secion 2 -->
     <!-- debut de la section 3 -->
-    <section class="s3 pb-3">
-        <div class=" ml-7 mr-7 mt-3 mb-3 bg-white">
-
-            <div class="bt">
-                <img src="./public/img/box-left-top-grey.png" alt="">
-                <div class="text-center mt-5">
-                    <h1 style="font-style: italic;"><span style="font-size: 65px;" class="text-danger">Book</span> Your
-                        Tables</h1>
-                    <img src="./public/img/decoration_line.png" alt="">
-                </div>
-                <img src="./public/img/box-right-top-grey.png" alt="">
+    <section class="s3 pb-3 pt-3 ">
+        <div class=" ml-7 mr-7 mb-3 bg-white position-relative">
+            <div class="pb-5">
+            
+            <img class="position-absolute" style="top:0%; left:0%" src="./public/img/box-left-top-grey.png" alt="">
+            <img class="position-absolute" style="top:0%; right:0%" src="./public/img/box-right-top-grey.png" alt="">
+            <img class="position-absolute" style="bottom: 0%; left: 0%;" src="./public/img/box-bottom-left-grey.png" alt="">
+            <img class="position-absolute" style="bottom: 0%; right: 0%;" src="./public/img/box-bottom_right-grey.png" alt="">
             </div>
-            <div class="gr">
+            <div class="bt">
+                <div class="text-center mt-5">
+                    <h1 style="font-style: italic;"><span style="font-size: 65px;" class="text-danger">Book</span> Your Tables</h1>
+                    <img class="tr" src="./public/img/decoration_line.png" alt="">
+                </div>
+                
+            </div>
+            <div class=" ml-lg-17 mr-lg-17 mw-100">
                 <div class="bg-img container text-center mt-5 ">
                     <div class="container">
                         <h4 style="font-family: ubuntu;" class="pt-5 text-white">Lorem ipsum dolor sit amet.
-                            <span style="font-size: 35px;">+265206526</span>
+                            <span style="font-size: 30px;">+265206526</span>
                         </h4>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class=" col-12 col-xl-6 pt-5">
-                                <input class="mb-3 pl-3 pr pr-3 pt-2 pb-2 " placeholder="Entrer Full Name" type="text"
+                                <input class="mb-3 pl-lg-3 pr-lg-3 pt-lg-2 pb-2 mw-100" placeholder="Entrer Full Name" type="text"
                                     name="" id=""><br>
-                                <input class="mb-3 pl-3 pr-3 pt-2 pb-2" placeholder="Phone Number" type="text" name=""
+                                <input class="mb-3 pl-lg-3 pr-lg-3 pt-lg-2 pb-2 mw-100" placeholder="Phone Number" type="text" name=""
                                     id=""><br>
-                                <input class="mb-3 pl-3 pr-3 pt-2 pb-2" placeholder="Date" type="text" name=""
+                                <input class="mb-3 pl-lg-3 pr-lg-3 pt-lg-2 pb-2 mw-100" placeholder="Date" type="text" name=""
                                     id=""><br>
-                                <div class="dropdown">
-                                    <button class="btn btn-light dropdown-toggle pl-6 pr-6" type="button"
-                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        Occasion
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </div>
+                                    <select class="mb-3 pl-3 pr-lg-9 pr-7 pt-2 pb-2 mw-100" name="pets" id="pet-select">
+                                        <option value="">Occasion</option>
+                                        <option value="dog">Dog</option>
+                                        <option value="cat">Cat</option>
+                                    </select>
                             </div>
                             <div class="col-12 col-xl-6 pt-5">
-                                <input class="mb-3 pl-4 pr-4 pt-2 pb-2 " placeholder="Entrer Id" type="text" name=""
+                                <input class="mb-3 pl-lg-3 pr-lg-3 pt-lg-2 pb-2 mw-100" placeholder="Entrer Id" type="text" name=""
                                     id=""><br>
-                                <div class="dropdown">
-                                    <button class="btn btn-light dropdown-toggle pt-2 pb-1 pl-6 pr-6" type="button"
-                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        Nof of person
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a><br>
-                                    </div><br>
-                                    <input class="mb-3 mt-3 pl-4 pr-4 pt-2 pb-2 " placeholder="Time" type="text" name=""
+                                <select class="mb-3 pl-3 pr-lg-7 pr-5 pt-2 pb-2 mw-100" name="pets" id="pet-select">
+                                        <option value="">No Of Person</option>
+                                        <option value="dog">Dog</option>
+                                        <option value="cat">Cat</option>
+                                </select><br>
+                                    <input class="mb-3 pl-lg-3 pr-lg-3 pt-lg-2 pb-2 mw-100" placeholder="Time" type="text" name=""
                                         id=""><br>
-                                    <div class="dropdown">
-                                        <button class="btn btn-light dropdown-toggle mb-2 mt- pt-2 pb-2 pl-7 pr-7"
-                                            type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            Cuisine
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div><br>
-                                    </div>
+                                        <select class="mb-3 pl-3 pr-lg-9 pr-8 pt-2 pb-2 mw-100" name="pets" id="pet-select">
+                                            <option value="">Cuisine</option>
+                                            <option value="dog">Dog</option>
+                                            <option value="cat">Cat</option>
+                                        </select>
                                 </div>
                             </div>
                         </div>
@@ -436,18 +423,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
             <div class="container text-center mt-5 mb-5">
                 <h1 style="font-style: italic;"><span style="font-size: 65px;" class="text-danger">Our</span> Blog</h1>
-                <img src="./public/img/decoration_line.png" alt="">
+                <img class="tr" src="./public/img/decoration_line.png" alt="">
             </div>
-            <div class="container">
+            <div class="container mb-5 ">
                 <div class="row">
                     <div class="col-sm-12 col-lg-6 ">
-                        <div class="w-100 position-relative">
-                            <img class="blg mb-3" src="./public/img/blog_img1.jpg" alt="">
+                        <div class=" position-relative">
+                            <img style="width: 100%; height: 100%;" class="blg mb-3" src="./public/img/blog_img1.jpg" alt="">
                             <button type="button"
-                                class="btnn btn btn-danger btn-lg rounded-pill position-absolute ">12April2017/
+                                class=" btnn btn btn-danger btn-lg rounded-pill position-absolute ">12April2017/
                                 20Comment/ 35Likes</button>
                         </div>
 
@@ -459,7 +446,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-6">
                         <div class="w-100 position-relative">
-                            <img class="blg mb-3" src="./public/img/blog_img2.jpg" alt="">
+                            <img style="width: 100%; height: 100%;" class="blg mb-3" src="./public/img/blog_img2.jpg" alt="">
                             <button type="button"
                                 class="btnn btn btn-danger btn-lg rounded-pill position-absolute ">12April2017/
                                 20Comment/ 35Likes</button>
@@ -472,12 +459,12 @@
                     </div>
                 </div>
             </div>
-            <div class="bt mt-5">
-                <img src="./public/img/box-bottom-left-grey.png" alt="">
+            <div class="bt pb-10">
+                
                 <div class="text-center">
                     <button type="button" class="btn btn-danger btn-lg rounded-pill">KNOW MORE</button>
                 </div>
-                <img src="./public/img/box-bottom_right-grey.png" alt="">
+                
             </div>
         </div>
     </section>
@@ -487,7 +474,7 @@
         <div class="container text-center pt-5 text-white">
             <h1 style="font-style: italic;"><span style="font-style: 65px;" class="text-danger">CLIENT</span>
                 Testimonials</h1>
-            <img src="./public/img/decoration_line.png" alt="">
+            <img class="tr" src="./public/img/decoration_line.png" alt="">
         </div>
         <div class="container mt-7">
             <div class="row pb-6">
@@ -520,7 +507,7 @@
     <section class="s5 pb-4">
         <div class="container text-center pt-5 pb-5">
             <h1 style="font-style: italic;"><span style="font-size: 65px;" class="text-danger">Our</span> Contact</h1>
-            <img src="./public/img/decoration_line.png" alt="">
+            <img class="tr" src="./public/img/decoration_line.png" alt="">
         </div>
         <div class="cont bg-danger text-center pt-3 pb-1 text-white">
             <i class=" icn fas fa-map-marker-alt mb-1"></i>

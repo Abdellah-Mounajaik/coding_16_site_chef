@@ -1,11 +1,11 @@
 @font-face {
   font-family: "ubuntu";
-  src: url("../public/fonts/ubuntu/Ubuntu-Regular.ttf");
+  src: url("../fonts/ubuntu/Ubuntu-Regular.ttf");
 }
 
 @font-face {
   font-family: "courgette";
-  src: url("../public/fonts/courgette");
+  src: url("../fonts/courgette/Courgette-Regular.ttf");
 }
 
 /*!
@@ -19383,6 +19383,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+nav {
+  z-index: 2;
+}
+
 nav a {
   padding: 15px;
 }
@@ -19395,26 +19399,13 @@ nav a:hover {
   filter: brightness(25%);
 }
 
+.texth {
+  z-index: 1;
+}
+
 h1 {
   font-family: "courgette";
   font-style: italic;
-}
-
-h1 .oc {
-  font-size: 80px;
-  text-transform: uppercase;
-}
-
-h1 .tast {
-  text-transform: uppercase;
-}
-
-h1 .makes {
-  font-size: 50px;
-}
-
-h1 .remem {
-  font-size: 50px;
 }
 
 .dent {
@@ -19431,9 +19422,8 @@ h1 .remem {
   background-image: url("../img/main_bg.jpg");
 }
 
-.s1 .ct {
-  display: flex;
-  justify-content: space-between;
+.s1 .icc:hover {
+  color: #c94040fd;
 }
 
 .s1 .ic {
@@ -19465,11 +19455,6 @@ h1 .remem {
   border-bottom: 2px solid gray;
 }
 
-.s1 .bc {
-  display: flex;
-  justify-content: space-between;
-}
-
 .s2 {
   background-image: url("../img/team_background.jpg");
 }
@@ -19482,16 +19467,6 @@ h1 .remem {
   background-image: url("../img/main_bg.jpg");
 }
 
-.s3 .bt {
-  display: flex;
-  justify-content: space-between;
-}
-
-.s3 .gr {
-  padding-left: 23%;
-  padding-right: 23%;
-}
-
 .s3 .bg-img {
   background-image: url("../img/book_table_bg.jpg");
   background-repeat: no-repeat;
@@ -19499,6 +19474,14 @@ h1 .remem {
 }
 
 .s3 input {
+  border-radius: 5px;
+}
+
+.s3 select {
+  color: gray;
+}
+
+.s3 option {
   border-radius: 5px;
 }
 
@@ -19556,4 +19539,90 @@ h1 .remem {
   font-size: 30px;
   padding-left: 7px;
   padding-right: 7px;
+}
+
+body {
+  backround-image: url("../img/main_bg.jpg");
+}
+
+@media screen and (max-width: 760px) {
+  .tr {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  nav {
+    top: 2%;
+  }
+  .texth {
+    top: 25%;
+  }
+  .h1t {
+    font-size: 20px;
+  }
+  .oc {
+    font-size: 25px;
+  }
+  .taste {
+    font-size: 25px;
+  }
+  .remem {
+    font-size: 25px;
+  }
+  .btnh {
+    font-size: 10px;
+    padding: 0px;
+  }
+  .rond {
+    visibility: hidden;
+  }
+  .imgh {
+    position: absolute;
+    right: 0%;
+    width: 30px;
+    height: 45px;
+    top: 0px;
+  }
+  .btnn {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 991px) {
+  nav {
+    top: 2%;
+  }
+  .texth {
+    top: 25%;
+  }
+  .h1t {
+    font-size: 40px;
+  }
+  .oc {
+    font-size: 45px;
+  }
+  .tast {
+    font-size: 45px;
+  }
+  .remem {
+    font-size: 45px;
+  }
+  .imgh {
+    position: absolute;
+    right: 5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    top: 2%;
+  }
+  .texth {
+    top: 25%;
+  }
+  .oc {
+    font-size: 80px;
+    text-transform: uppercase;
+  }
 }
